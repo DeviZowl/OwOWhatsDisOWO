@@ -1,0 +1,34 @@
+.input {
+  height: 50px;
+  width: 600px;
+}
+
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bolder;
+  color: brown;
+  font-size: 4rem;
+  position: relative;
+}
+
+.submiot {
+  height: 700px;
+  width: 200px;
+  font-size: 5rem;
+  color: #61695f;
+  background-color: #aa2697;
+}
+
+.hint {
+  position: fixed;
+  background-color: red;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 700px;
+  width: 600px;
+}

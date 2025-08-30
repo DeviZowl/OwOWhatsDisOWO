@@ -1,0 +1,25 @@
+.col {
+  height: 120px;
+  width: 120px;
+  background-color: blueviolet;
+  border: 1px solid grey;
+}
+.row {
+  width: 600px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
+
+.wordle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: green;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
